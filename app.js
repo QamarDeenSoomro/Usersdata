@@ -258,6 +258,7 @@ for (var i = 0; i < UsersData.length; i++) {
   var UserNameTxt = document.createTextNode(UsersData[i].username);
   UserName.appendChild(UserNameTxt);
   usersDiv.appendChild(UserName);
+  UserName.setAttribute("class","username")
   // Email / Phone Div
   var EmPhDiv = document.createElement("div")
   usersDiv.appendChild(EmPhDiv);
